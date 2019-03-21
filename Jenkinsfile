@@ -6,7 +6,6 @@ node ('mesos') {
     env.PATH = "${nodeHome}/bin:${env.PATH}"
 
     stage ('Checkout') {
-        //checkout the ctsupport.bot project
         checkout scm
         echo "BRANCH: " + branch
     }
