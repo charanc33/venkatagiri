@@ -12,7 +12,7 @@ node ('mesos') {
     }
 
     stage("Build & Test") {
-        sh 'apt-get install bzip2 && npm install -g gulp mocha && npm install && cd web && npm install && cd .. && npm test && gulp clean build'
+        sh 'apt-get install bzip2 && npm install && ng serve'
     }
 
     if(branch == 'master') {
