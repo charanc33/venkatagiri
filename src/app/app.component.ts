@@ -6,7 +6,7 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'my-app';
+  title = 'venkatagiri';
   isBusiness: any = false;
   isUser = false;
   private router: any;
